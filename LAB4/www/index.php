@@ -1,11 +1,10 @@
 <?php
-echo "HELLO PHP !!";
+echo "Hello PHP !!";
 
-// phpinfo();
+//phpinfo();
 
 $no = 10;
-$name = "aom";
-
+$name = 'Fluk';
 ?>
 
 <table border="1">
@@ -20,15 +19,17 @@ $name = "aom";
             <td>1</td>
             <td>Dang</td>
         </tr>
+        <tr>
         <?php
-    for($i = 2; $i <5 ; $i++){
-    ?>
-          <tr>
-            <td><?php echo $i ?></td>
-            <td><?= $name ?></td>
+        for($i = 2; $i <5; $i++) {
+        ?>
+            <tr>
+                <td><?php echo $i ?></td>
+                <td><?= $name ?></td>
+            </tr>
+        <?php
+        }
+        ?>
         </tr>
-    <?php       
-    }
-    ?>    
     </tbody>
 </table>

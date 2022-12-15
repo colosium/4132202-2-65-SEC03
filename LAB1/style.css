@@ -1,13 +1,12 @@
-<style>
-.blue{
-    color: aquamarine;
+
+.blue {
+    color: blue;
 }
-button{
-    color: black ;
+button {
+    color: green;
 }
-#major{
+#major {
     font-size: 2rem;
     font-weight: bold;
-    color: brown;
+    color: red;
 }
-</style>
